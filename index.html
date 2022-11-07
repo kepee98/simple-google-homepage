@@ -7,12 +7,15 @@
     <link rel="stylesheet" href="stylesheet.css">
   </head>
   <body>
-    <header>
-      <nav class="navBar">
-        <a href="https://mail.google.com/">Gmail</a>
-        <a href="https://www.google.co.in/imghp?hl=en&authuser=0&ogbl">Images</a>
-      </nav>
-    </header>
+    <nav>
+      <ul class="navBar">
+        <li><a href="#" id="navItems">Gmail</a></li>
+        <li><a href="#" id="navItems">Images</a></li>
+        <li><a href="#"><img class="gApps" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGNsYXNzPSJnYl9WZSIgZm9jdXNhYmxlPSJmYWxzZSIgdmlld0JveD0iMCAwIDI0IDI0Ij48cGF0aCBkPSJNNiw4YzEuMSwwIDIsLTAuOSAyLC0ycy0wLjksLTIgLTIsLTIgLTIsMC45IC0yLDIgMC45LDIgMiwyek0xMiwyMGMxLjEsMCAyLC0wLjkgMiwtMnMtMC45LC0yIC0yLC0yIC0yLDAuOSAtMiwyIDAuOSwyIDIsMnpNNiwyMGMxLjEsMCAyLC0wLjkgMiwtMnMtMC45LC0yIC0yLC0yIC0yLDAuOSAtMiwyIDAuOSwyIDIsMnpNNiwxNGMxLjEsMCAyLC0wLjkgMiwtMnMtMC45LC0yIC0yLC0yIC0yLDAuOSAtMiwyIDAuOSwyIDIsMnpNMTIsMTRjMS4xLDAgMiwtMC45IDIsLTJzLTAuOSwtMiAtMiwtMiAtMiwwLjkgLTIsMiAwLjksMiAyLDJ6TTE2LDZjMCwxLjEgMC45LDIgMiwyczIsLTAuOSAyLC0yIC0wLjksLTIgLTIsLTIgLTIsMC45IC0yLDJ6TTEyLDhjMS4xLDAgMiwtMC45IDIsLTJzLTAuOSwtMiAtMiwtMiAtMiwwLjkgLTIsMiAwLjksMiAyLDJ6TTE4LDE0YzEuMSwwIDIsLTAuOSAyLC0ycy0wLjksLTIgLTIsLTIgLTIsMC45IC0yLDIgMC45LDIgMiwyek0xOCwyMGMxLjEsMCAyLC0wLjkgMiwtMnMtMC45LC0yIC0yLC0yIC0yLDAuOSAtMiwyIDAuOSwyIDIsMnoiLz48L3N2Zz4=" alt="G-Apps"></a></li>
+        <li><a href="#"><img class="gAccount" src="https://lh3.googleusercontent.com/ogw/AOh-ky2hV_LlrbXtKJEjc2InvUzoaGGsAGMNtMsjImbgUWs=s32-c-mo" alt="G-Account"></a></li>
+      </ul>
+    </nav>
+    
     
     <!-- Google logo, search box and buttons -->
     <div class="container">
@@ -22,31 +25,31 @@
       <div class="searchBox">
         <input type="text" class="input" name="search-box">
         <img class="voiceSearch" src="https://www.gstatic.com/images/branding/googlemic/2x/googlemic_color_24dp.png" alt="voice-search">
-        <img class="searchIcon" src="https://pngpart.com/images/bt/google-search-icon-5.png" alt="search-icon">
+        <img class="searchIcon" src="data:image/svg+xml;base64,PHN2ZyBmb2N1c2FibGU9ImZhbHNlIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZD0iTTE1LjUgMTRoLS43OWwtLjI4LS4yN0E2LjQ3MSA2LjQ3MSAwIDAgMCAxNiA5LjUgNi41IDYuNSAwIDEgMCA5LjUgMTZjMS42MSAwIDMuMDktLjU5IDQuMjMtMS41N2wuMjcuMjh2Ljc5bDUgNC45OUwyMC40OSAxOWwtNC45OS01em0tNiAwQzcuMDEgMTQgNSAxMS45OSA1IDkuNVM3LjAxIDUgOS41IDUgMTQgNy4wMSAxNCA5LjUgMTEuOTkgMTQgOS41IDE0eiIvPjwvc3ZnPg==" alt="search-icon">
       </div>
 
       <!-- Buttons -->
       <div>
-        <button class="buttons">Google Search</button>
-        <button class="buttons">I'm Feeling Lucky</button>
+        <button class="buttons"><a href="#" id="buttonStyle">Google Search</a></button>
+        <button class="buttons"><a href="#" id="buttonStyle">I'm Feeling Lucky</a></button>
       </div>
-      <p>Google offered in: हिन्दी বাংলা తెలుగు मराठी தமிழ் ગુજરાતી ಕನ್ನಡ മലയാളം ਪੰਜਾਬੀ</p>
-    </div>
-    <footer>
-      <div class="footer">
-        <nav class="leftNav">
-          <a href="https://about.google/?utm_source=google-IN&utm_medium=referral&utm_campaign=hp-footer&fg=1">About</a>
-          <a href="https://ads.google.com/intl/en_in/home/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1">Advertising</a>
-          <a href="https://www.google.co.in/services/?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpbfooter&fg=1">Business</a>
-          <a href="https://google.com/search/howsearchworks/?fg=1">How Search Works</a>
-        </nav>
+      <p><span>Google offered in:</span> <a href="#">हिन्दी</a> &ensp; <a href="#">বাংলা</a>  &ensp; <a href="#">తెలుగు</a> &ensp; <a href="#">मराठी</a> &ensp; <a href="#">தமிழ்</a> &ensp; <a href="#">ગુજરાતી</a> &ensp; <a href="#">ಕನ್ನಡ</a> &ensp; <a href="#">മലയാളം</a> &ensp; <a href="#">ਪੰਜਾਬੀ</a></p>
+      
+      <!-- Footer elements --> 
+      <footer>
+        <ul class="lftFtr">
+          <li><a href="#">About</a></li>
+          <li><a href="#">Advertising</a></li>
+          <li><a href="#">Business</a></li>
+          <li><a href="#">How Search Works</a></li>
+        </ul>
         
-        <nav class="rightNav">
-          <a href="https://policies.google.com/privacy?hl=en-IN&fg=1">Privacy</a>
-          <a href="https://policies.google.com/terms?hl=en-IN&fg=1">Terms</a>
-          <a>Settings</a>
-        </nav>
-      </div>
-    </footer>
+        <ul class="rgtFtr">
+          <li><a href="#">Privacy</a></li>
+          <li><a href="#">Terms</a></li>
+          <li><a href="#">Settings</a></li>
+        </ul>
+      </footer>
+    </div>
   </body>
 </html>
